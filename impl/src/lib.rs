@@ -7,6 +7,7 @@ use proc_macro_error::{abort, proc_macro_error};
 
 use quote::{format_ident, quote};
 use syn::{
+    spanned::Spanned,
     parse::{self, Parse, ParseStream},
     parse_macro_input, Ident, Lit, Token,
 };
